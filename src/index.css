@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.title{
+    font-family: "Montserrat", serif;
+
+}
+.p{
+    font-family: "Montserrat", serif;
+    font-size: 14.3px;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+    position: relative;
+}
+h2{
+    font-size: 1000px;
+}
+#links{
+    display: flex;
+    align-items: center;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#landing{
+    
+    height: 700px;
+    background-image: url(https://interiordesign.net/wp-content/uploads/2024/10/Interior-Design-The-Rasidence-Studio-Right-Angle-the-rasidence-10.jpg);
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    width: 100vw;
+}
+#landingtext{
+    position: absolute;
+    margin: 80px;
+    width: 60%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.602);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+#logo{
+    
+}
+footer{
+    background-color: rgb(218, 218, 218);
+    margin: 0px;
+    display: flex;
+    width: 100vw;
+    padding: 70px;
+    height: 150px;
+}
